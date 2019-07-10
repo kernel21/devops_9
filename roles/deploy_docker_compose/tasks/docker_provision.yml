@@ -1,8 +1,8 @@
 - name: Install {{ _docker_packages | join(', ') }}
   package:
-    pkg: {{ _docker_package }}
-      state: present
-      update_cache: yes
+    name: "{{ _docker_packages }}"
+    state: present
+    update_cache: yes
 
 - name: Ensure docker service is started
   systemd:
@@ -16,4 +16,4 @@
 
 - name: Install {{ _python_packages | join(', ') }} packages with pip
     pip:
-    name: "{{ _python_package_ }}"
+    name: "{{ _python_packages_ }}"
