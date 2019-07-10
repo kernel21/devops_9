@@ -1,4 +1,4 @@
-- name: Deploy docker-compose with inline v2 compose
+#- name: Deploy docker-compose with inline v2 compose
 - docker_compose:
     project_src: "{{ project_folder }}"
     state: absent
