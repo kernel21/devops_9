@@ -3,19 +3,20 @@
     project_src: "{{ project_folder }}"
     state: absent
 
-#- docker_compose:
-#    project_name: "{{ project_name }}"
-#    definition:
-#      version: '2'
-#      services:
-#        servlets:
-#          build: "{{ project_folder }}"
-#          expose:
-#            - "8080"
-#          ports:
-#            - "8080:8080"
-#          restart: always
-#  register: output
+- name: 2222
+  docker_compose:
+    project_name: "{{ project_name }}"
+    definition:
+      version: '2'
+      services:
+        servlets:
+          build: "{{ project_folder }}"
+          expose:
+            - "8080"
+          ports:
+            - "8080:8080"
+          restart: always
+  register: output
 
 #- assert:
 #    that:
