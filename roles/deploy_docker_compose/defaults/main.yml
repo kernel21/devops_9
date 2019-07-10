@@ -1,6 +1,6 @@
 ---
 # defaults file for deploy_docker_compose
 project_folder: /tmp/compose/
-_docker_files:
-  - docker-compose.yml
-  - Dockerfie
+#_docker_files:
+#  - docker-compose.yml
+#  - Dockerfie

@@ -7,6 +7,9 @@
 
 - name: Copy project file
   copy:
-   src: "{{ _docker_files }}"
+   src: "{{ item }}"
    dest: "{{ project_folder }}"
-   register: copy_res
+  with_items:
+    - docker-compose.yml
+    - Dockerfile
+  register: copy_res
