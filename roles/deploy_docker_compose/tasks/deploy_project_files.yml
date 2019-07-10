@@ -1,12 +1,12 @@
 ---
 - name: Create project directory
   file:
-    path: {{ project_folder }}
+    path: "{{ project_folder }}"
     state: directory
     mode: 0755
 
 - name: Copy project file
   copy:
-    src:  {{ _docker_files }}
-    dest: {{ project_folder }}
+    src:  "{{ _docker_files }}"
+    dest: "{{ project_folder }}"
     mode: 775
