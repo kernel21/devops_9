@@ -16,4 +16,4 @@
 
 - name: Install {{ _python_packages | join(', ') }} packages with pip
     pip:
-    name: "{{ _python_packages_ }}"
+      name: "{{ _python_packages_ }}"
