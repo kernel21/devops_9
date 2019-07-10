@@ -9,5 +9,7 @@
   copy:
    src: "{{ item }}"
    dest: "{{ project_folder }}"
-  with_items: "{{ docker_files | join(', ') }}"
+  with_items:
+    - docker-compose.yml
+    - Dockerfile
   register: copy_res
