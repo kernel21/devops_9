@@ -1,6 +1,6 @@
 ---
 # tasks file for deploy_docker_compose
 
-#- include:  docker_provision.yml
+- include:  docker_provision.yml
 - include:  deploy_project_files.yml
-#- include:  deploy_composer_file.yml
+- include:  deploy_composer_file.yml
