@@ -3,7 +3,7 @@
         project_src: "{{ project_folder }}"
         state: absent
 
-- name: Build containers from docker-compose
+- name: Build containers from docker-compose 2
     - docker_compose:
         project_name: "{{ project_name }}"
         definition:
@@ -18,7 +18,7 @@
           restart: always
     register: output
 
-- name: Build containers from docker-compose
+- name: Build containers from docker-compose 3
   - assert:
       that:
         - "{{ service_name }}.{{ project_name }}_{{ service_name }}_1.state.running"
