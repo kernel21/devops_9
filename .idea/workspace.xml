@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="396">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -225,27 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562749037953</updated>
-    </task>
-    <task id="LOCAL-00018" summary="add some changes">
-      <created>1562760520768</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1562760520768</updated>
-    </task>
-    <task id="LOCAL-00019" summary="add some changes">
-      <created>1562760633776</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1562760633776</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add some changes">
-      <created>1562760699821</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1562760699821</updated>
     </task>
     <task id="LOCAL-00021" summary="add some changes">
       <created>1562760957600</created>
@@ -569,7 +548,28 @@
       <option name="project" value="LOCAL" />
       <updated>1562769486567</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Change README.md">
+      <created>1562769546811</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1562769546811</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Change README.md">
+      <created>1562769605596</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1562769605597</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Change README.md">
+      <created>1562769719989</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1562769719989</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -721,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="396">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
