@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76b6f332-35c4-45d0-b6eb-1673fe16bdd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -235,13 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562749037953</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Init repo">
-      <created>1562753028338</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1562753028338</updated>
     </task>
     <task id="LOCAL-00003" summary="Init repo">
       <created>1562753908155</created>
@@ -579,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562767807779</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Change README.md">
+      <created>1562767859156</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1562767859156</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -732,7 +731,7 @@
     <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
