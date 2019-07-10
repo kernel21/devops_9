@@ -9,4 +9,3 @@
   copy:
    src: Dockerfile
    dest: "{{ project_folder }}"
-  register: copy_res
