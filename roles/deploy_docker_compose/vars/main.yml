@@ -5,6 +5,7 @@ _docker_packages:
   - docker-compose
   - libffi-dev
   - libssl-dev
+  - python3-pip
 
 _python_packages:
   - docker
