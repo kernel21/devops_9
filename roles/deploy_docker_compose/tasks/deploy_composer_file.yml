@@ -1,23 +1,24 @@
-# Deploy docker-compose with inline v2 compose
-- block: #==================composer#
+- name: Build containers from docker-compose
     - docker_compose:
         project_src: "{{ project_folder }}"
         state: absent
 
-#- docker_compose:
-#    project_name: "{{ project_name }}"
-#    definition:
-#      version: '2'
-#      services:
-#        servlets:
-#          build: "{{ project_folder }}"
-#          expose:
-#            - "8080"
-#          ports:
-#            - "8080:8080"
-#          restart: always
-#  register: output
+- name: Build containers from docker-compose
+    - docker_compose:
+        project_name: "{{ project_name }}"
+        definition:
+          version: '2'
+          services:
+            servlets:
+              build: "{{ project_folder }}"
+              expose:
+                - "8080"
+              ports:
+                - "8080:8080"
+          restart: always
+    register: output
 
-#- assert:
-#    that:
-#      - "{{ service_name }}.{{ project_name }}_{{ service_name }}_1.state.running"
+- name: Build containers from docker-compose
+  - assert:
+      that:
+        - "{{ service_name }}.{{ project_name }}_{{ service_name }}_1.state.running"
