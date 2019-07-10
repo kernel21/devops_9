@@ -1,6 +1,6 @@
 - name: Install {{ _docker_packages | join(', ') }}
   package:
-    name: {{ _docker_package }}
+    pkg: {{ _docker_package }}
       state: present
       update_cache: yes
 
