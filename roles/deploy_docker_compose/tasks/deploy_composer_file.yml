@@ -1,4 +1,9 @@
 # Deploy docker-compose with inline v2 compose
+
+- name: Create a network msnet
+  docker_network:
+    name: msnet
+
 - docker_compose:
     project_src: "{{ project_folder }}"
     state: absent
@@ -14,6 +19,8 @@
             - "8080"
           ports:
             - "8080:8080"
+          networks:
+            - msnet
           restart: always
   register: output
 
