@@ -2,4 +2,4 @@
 # defaults file for deploy_docker_compose
 project_folder: /tmp/compose/
 project_name: lab7ms_ansible
-service_name: tomcat
+service_name: servlets
