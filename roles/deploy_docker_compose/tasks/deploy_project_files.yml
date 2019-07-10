@@ -7,6 +7,6 @@
 
 - name: Copy project file
   copy:
-   src: "{{ _docker_files }}"
+   src: "{{ docker_files }}"
    dest: "{{ project_folder }}"
   register: copy_res
