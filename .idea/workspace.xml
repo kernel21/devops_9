@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76b6f332-35c4-45d0-b6eb-1673fe16bdd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/deploy_docker_compose/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/deploy_docker_compose/defaults/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -236,13 +235,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562749037953</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Init repo">
-      <created>1562749489049</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1562749489049</updated>
     </task>
     <task id="LOCAL-00002" summary="Init repo">
       <created>1562753028338</created>
@@ -573,7 +565,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562767596733</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Change README.md">
+      <created>1562767756748</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1562767756748</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Change README.md">
+      <created>1562767807778</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1562767807779</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -726,7 +732,7 @@
     <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>

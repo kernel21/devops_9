@@ -9,7 +9,7 @@
     definition:
       version: '2'
       services:
-        "{{ service_name }}":
+        { service_name }:
           build: "{{ project_folder }}"
           expose:
             - "8080"
