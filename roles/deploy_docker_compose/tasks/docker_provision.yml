@@ -1,7 +1,7 @@
 - name: Install {{ _docker_packages | join(', ') }}
   package:
     name: "{{ _docker_packages }}"
-    state: present
+    state: latest
     update_cache: yes
 
 - name: Ensure docker service is started
