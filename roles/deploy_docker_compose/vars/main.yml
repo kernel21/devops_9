@@ -11,3 +11,7 @@ _python_packages:
   - docker
   - docker-compose
   - requests>=2.20.1
+
+_docker_files:
+  - docker-compose.yml
+  - Dockerfile
