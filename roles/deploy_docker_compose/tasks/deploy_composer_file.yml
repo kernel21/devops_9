@@ -18,7 +18,7 @@
           restart: always
   register: output
 
-- name: Startup status check
+- name: Container running status check
   assert:
     that:
       - "{{ service_name }}.{{ project_name }}_{{ service_name }}_1.state.running"
