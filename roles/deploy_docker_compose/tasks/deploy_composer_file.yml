@@ -9,7 +9,7 @@
     definition:
       version: '2'
       services:
-        {{ service_name }}:
+        "{{ service_name }}":
           build: "{{ project_folder }}"
           expose:
             - "8080"
@@ -20,4 +20,4 @@
 
 - assert:
     that:
-      - "servlets.{{ project_name }}_servlets_1.state.running"
+      - "{{ service_name }}.{{ project_name }}_{{ service_name }}_1.state.running"
