@@ -3,11 +3,6 @@
     name: "{{ _docker_package }}"
       state: present
       update_cache: yes
-    with_items:
-      - docker.io
-      - docker-compose
-      - libffi-dev
-      - libssl-dev
 
 - name: Ensure docker service is started
   systemd:
