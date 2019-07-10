@@ -1,10 +1,9 @@
 - name: Deploy docker-compose with inline v2 compose
-  docker_compose:
+- docker_compose:
     project_src: "{{ project_folder }}"
     state: absent
 
-- name: Deploy inline file
-  docker_compose:
+- docker_compose:
     project_name: lab7ms
     definition:
       version: '2'
@@ -18,9 +17,9 @@
           restart: always
   register: output
 
-  debug:
+- debug:
     var: output
 
-  assert:
+- assert:
     that:
       - "servlets.lab7ms_servlets_1.state.running"
