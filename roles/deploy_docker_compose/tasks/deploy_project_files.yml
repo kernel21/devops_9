@@ -7,6 +7,4 @@
 
 - name: Copy project file
   copy:
-    src:  {{ _docker_files }}
-    dest: {{ project_folder }}
-    mode: 775
+    src="{{ _docker_files }}" dest="{{ project_folder }}" directory_mode=yes
