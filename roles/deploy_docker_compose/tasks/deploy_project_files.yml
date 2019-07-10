@@ -8,5 +8,5 @@
 - name: Copy project file
   copy:
     src:  "{{ _docker_files }}"
-    dest: "{{ project_folder }}"
+    dest: "{{ project_folder }}" directory_mode=yes
     mode: 775
