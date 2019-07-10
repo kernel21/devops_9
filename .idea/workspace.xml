@@ -4,6 +4,7 @@
     <list default="true" id="76b6f332-35c4-45d0-b6eb-1673fe16bdd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/docker_provision.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/docker_provision.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/docker_provision.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../devops_8/docker-provision_builtin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="324">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -43,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/vars/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -58,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -107,10 +99,10 @@
         <option value="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/main.yml" />
         <option value="$PROJECT_DIR$/roles/deploy_docker_compose/defaults/main.yml" />
         <option value="$PROJECT_DIR$/deploy_docker.yml" />
-        <option value="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/docker_provision.yml" />
         <option value="$PROJECT_DIR$/roles/deploy_docker_compose/vars/main.yml" />
         <option value="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_project_files.yml" />
         <option value="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml" />
+        <option value="$PROJECT_DIR$/roles/deploy_docker_compose/tasks/docker_provision.yml" />
       </list>
     </option>
   </component>
@@ -178,10 +170,6 @@
               <item name="roles" type="462c0819:PsiDirectoryNode" />
               <item name="deploy_docker_compose" type="462c0819:PsiDirectoryNode" />
               <item name="vars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="devops_9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devops_8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562760520768</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add some changes">
+      <created>1562760633776</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1562760633776</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add some changes">
+      <created>1562760699821</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562760699821</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -428,20 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/docker_provision.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/defaults/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_project_files.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -456,17 +444,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/vars/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy_docker.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -477,10 +465,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/vars/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/deploy_composer_file.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/deploy_docker_compose/tasks/docker_provision.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
