@@ -3,7 +3,7 @@
     project_src: "{{ project_folder }}"
     state: absent
 
-- name:
+- name: Deploy inline file
   docker_compose:
     project_name: lab7ms
     definition:
