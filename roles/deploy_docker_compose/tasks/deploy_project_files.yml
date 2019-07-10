@@ -5,7 +5,7 @@
     state: directory
     mode: 0755
 
-- name: Copy project file
+- name: Copy project Dockerfile
   copy:
    src: Dockerfile
    dest: "{{ project_folder }}"
