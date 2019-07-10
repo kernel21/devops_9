@@ -3,7 +3,7 @@
     project_src: "{{ project_folder }}"
     state: absent
 
-- name: Build containers from docker-compose
+- name: Build project from docker-compose
   docker_compose:
     project_name: "{{ project_name }}"
     definition:
