@@ -1,4 +1,4 @@
-Role Name
+deploy_docker_compose
 =========
 
 A brief description of the role goes here.
