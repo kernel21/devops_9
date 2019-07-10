@@ -1,4 +1,4 @@
-- name: Install {{ _docker_packages | join(', ') }}
+- name: Install {{ _docker_packages | join(', ') }} package with apt
   package:
     name: "{{ _docker_packages }}"
     state: latest
