@@ -1,0 +1,24 @@
+- name: Install {{ _docker_packages | join(', ') }}
+  package:
+    name: "{{ _docker_package }}"
+      state: present
+      update_cache: yes
+    with_items:
+      - docker.io
+      - docker-compose
+      - libffi-dev
+      - libssl-dev
+
+- name: Ensure docker service is started
+  systemd:
+    name: docker
+    state: started
+
+- name: Install pip from repo
+  package:
+    state: latest
+    name: python3-pip
+
+- name: Install {{ _python_packages | join(', ') }} packages with pip
+    pip:
+    name: "{{ _python_package_ }}"

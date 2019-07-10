@@ -1,0 +1,26 @@
+- name: Deploy docker-compose with inline v2 compose
+  docker_compose:
+    project_src: {{ project_folder }}
+    state: absent
+
+- name:
+  docker_compose:
+    project_name: lab7ms
+    definition:
+      version: '2'
+      services:
+        servlets:
+          build: {{ project_folder }}
+          expose:
+            - "8080"
+          ports:
+            - "8080:8080"
+          restart: always
+  register: output
+
+  debug:
+    var: output
+
+  assert:
+    that:
+      - "servlets.lab7ms_servlets_1.state.running"

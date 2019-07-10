@@ -1,0 +1,7 @@
+---
+- name: Deploy docker-composer
+  host: "{{ DOCKERHOSTS }}"
+  become: yes
+
+  roles:
+    - { role: deploy_docker_compose, when: ansible_system == 'Linux' }

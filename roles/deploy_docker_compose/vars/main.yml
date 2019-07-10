@@ -1,2 +1,16 @@
 ---
 # vars file for deploy_docker_compose
+_docker_package:
+  - docker.io
+  - docker-compose
+  - libffi-dev
+  - libssl-dev
+
+_python_package:
+  - docker
+  - docker-compose
+  - requests>=2.20.1
+
+_docker_files:
+  - docker-compose.yml
+  - Dockerfie
