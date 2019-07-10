@@ -20,4 +20,4 @@
 
 - assert:
     that:
-      - "servlets."{{ project_name }}"_servlets_1.state.running"
+      - "servlets.{{ project_name }}_servlets_1.state.running"
