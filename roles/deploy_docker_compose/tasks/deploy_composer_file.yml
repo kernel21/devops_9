@@ -1,7 +1,7 @@
 - name: Build containers from docker-compose
-  - docker_compose:
-        project_src: "{{ project_folder }}"
-        state: absent
+  docker_compose:
+    project_src: "{{ project_folder }}"
+    state: absent
 
 #- docker_compose:
 #    project_name: "{{ project_name }}"
