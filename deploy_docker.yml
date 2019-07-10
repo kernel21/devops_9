@@ -1,6 +1,6 @@
 ---
 - name: Deploy docker-composer
-  host: "{{ DOCKERHOSTS }}"
+  hosts: "{{ DOCKERHOSTS }}"
   become: yes
 
   roles:
