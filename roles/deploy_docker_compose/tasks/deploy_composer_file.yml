@@ -1,6 +1,6 @@
 - name: Deploy docker-compose with inline v2 compose
   docker_compose:
-    project_src: {{ project_folder }}
+    project_src: "{{ project_folder }}"
     state: absent
 
 - name:
@@ -10,7 +10,7 @@
       version: '2'
       services:
         servlets:
-          build: {{ project_folder }}
+          build: "{{ project_folder }}"
           expose:
             - "8080"
           ports:
