@@ -15,5 +15,5 @@
     name: python3-pip
 
 - name: Install {{ _python_packages | join(', ') }} packages with pip
-    pip:
-      name: "{{ _python_packages_ }}"
+  pip:
+    name: "{{ _python_packages_ }}"
