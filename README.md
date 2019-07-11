@@ -11,20 +11,20 @@ OS: Ubuntu 16.04
 Role Variables
 --------------
 
-vars/main.yml:
+**vars/main.yml:**
 
-__docker_packages
-_python_packages_
+docker_packages
+python_packages
 
-defaults/main.yml:
+**defaults/main.yml:**
 
-_project_folder: /tmp/compose/
+project_folder: /tmp/compose/
 project_name: lab7ms_ansible
-service_name: servlets_
+service_name: servlets
 
-deploy_docker.yml:
+**deploy_docker.yml:**
 
-_hosts: "{{ DOCKERHOSTS }}"_
+hosts: "{{ DOCKERHOSTS }}"
 
 deploy_docker.yml Playbook:
 ----------------
