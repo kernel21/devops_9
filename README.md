@@ -1,31 +1,36 @@
 deploy_docker_compose
 =========
 
-A brief description of the role goes here.
+Deploy docker container by docker-compose
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+OS: Ubuntu 16.04
 
 Role Variables
 --------------
-_docker_packages:
 
-_python_packages:
+vars/main.yml:
 
+__docker_packages
+_python_packages_
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+defaults/main.yml:
 
-Dependencies
-------------
+_project_folder: /tmp/compose/
+project_name: lab7ms_ansible
+service_name: servlets_
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+deploy_docker.yml:
+
+_hosts: "{{ DOCKERHOSTS }}"_
 
 deploy_docker.yml Playbook:
 ----------------
 
-`ansible-playbook deploy_docker.yml --extra-var "DOCKERHOSTS=docker_host"`
+
+`ansible-playbook deploy_docker.yml --extra-var "DOCKERHOSTS=docker_host ansible_python_interpreter=/usr/bin/python3"`
 
     name: Deploy docker-composer
     hosts: "{{ DOCKERHOSTS }}"
